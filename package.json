@@ -1,0 +1,27 @@
+{
+  "name": "asde-michi-web",
+  "version": "0.1.0",
+  "description": "Web version of Arlin by Michi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunadarma-academy/asde-michi-web.git"
+  },
+  "keywords": [
+    "arlin",
+    "michi",
+    "web"
+  ],
+  "author": "M Haidar Hanif <mhaidarhanif@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gunadarma-academy/asde-michi-web/issues"
+  },
+  "homepage": "https://github.com/gunadarma-academy/asde-michi-web#readme",
+  "dependencies": {
+    "semantic-ui": "2.1.8"
+  }
+}
