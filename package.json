@@ -12,10 +12,13 @@
   },
   "keywords": [
     "arlin",
-    "web",
-    "michi"
+    "michi",
+    "web"
   ],
-  "author": "Ekky Pramana <ekkypramana@gmail.com>",
+  "author": [
+    "M Haidar Hanif <mhaidarhanif@gmail.com>",
+    "Ekky Pramana <ekkypramana@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gunadarma-academy/asde-michi-web/issues"
