@@ -1,0 +1,27 @@
+/* landing page */
+
+.masthead {
+  height: 700px;
+}
+
+.container.ui.menu {
+}
+
+.title {
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+.container.ui h1 {
+  font-size: 7em;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+}
