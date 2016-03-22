@@ -1,27 +1,58 @@
 /* landing page */
 
-.masthead {
-  height: 700px;
-}
-
-.container.ui.menu {
-}
-
-.title {
-  padding-top: 5em;
-  padding-bottom: 3em;
-}
-.container.ui h1 {
-  font-size: 7em;
-}
-
 .landing {
   display: flex;
   flex-direction: column;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
+.ui.menu {
+  border: none !important;
+}
+
+.masthead {
+  height: 700px;
+  width: 100%;
+  display: block;
+  background-size: cover !important;
+  background: url('https://images.unsplash.com/photo-1414115880398-afebc3d95efc?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375') center !important;
+}
+
+.ui.text.container.title {
+    padding: 5rem 0rem;
+}
+.ui.text.container h1 {
+  font-size: 5em;
+}
+
+.ui.text.container h2 {
+  font-size: 1.5em;
+}
+
+.foot {
   padding: 1em;
+  position:absolute;
+  bottom:0;
+  width: 100%;
+}
+
+#login {
+}
+
+@media only screen and (max-width: 700px) {
+
+  .ui.text.container h1 {
+    font-size: 4em;
+  }
+  .ui.text.container h2 {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (min-height: 600px) {
+
+  .ui.text.container.title {
+      padding: 7rem 0rem;
+  }
+
 }

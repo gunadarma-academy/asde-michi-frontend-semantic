@@ -8,10 +8,9 @@
   <title>Arlin | Komunitas Penunjuk Arah Jalan</title>
   <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
   <link rel="stylesheet" href="style.css">
-  <script src="semantic/dist/semantic.min.js"></script>
 </head>
 
-<body class="landing">
+<body class="landing blurring">
   <div class="ui inverted vertical masthead center aligned segment">
     <div class="ui container">
       <div class="ui large secondary inverted pointing right menu">
@@ -27,19 +26,33 @@
           Arlin
         </h1>
       <h2>Ke sana ke mari, tanya di sini.</h2>
+      <div class="ui container">
+        <div class="ui big primary button">Tanya Sekarang <i class="right arrow icon"></i></div>
+      </div>
     </div>
-    <div class="ui container">
-      <div class="ui huge primary button">Tanya Sekarang <i class="right arrow icon"></i></div>
-    </div>
-    <div class="ui center fluid container footer">
+
+
+    <div class="ui fluid container foot">
       <div class="ui text inverted">
         <p>Copyright &copy; Michi 2016.</p>
       </div>
     </div>
-  </div>
 
+    <div class="ui modal centered grid" id="login">
+      <div class="ui raised segment">
+        <form class="ui form">
+          <div class="field">
+            <label>Username</label>
+            <input type="text" name="first-name" placeholder="Username">
+          </div>
+          <button class="ui button" type="submit">Submit</button>
+        </form>
+      </div>
 
-
+    </div>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
