@@ -22,7 +22,7 @@
 }
 
 .ui.text.container.title {
-    padding: 5rem 0rem;
+    padding: 1em 0rem;
 }
 .ui.text.container h1 {
   font-size: 5em;
@@ -42,7 +42,23 @@
 #login {
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-height: 400px) {
+
+  .masthead {
+    background-size: cover !important;
+  }
+
+  .ui.text.container h1 {
+    font-size: 0.4em;
+  }
+  .ui.text.container h2 {
+    font-size: 1em;
+  }
+
+}
+
+
+@media only screen and (max-height: 480px) {
 
   .masthead {
     background-size: cover !important;
@@ -58,37 +74,38 @@
 
 }
 
-@media only screen and (max-height: 480px) {
+@media only screen and (min-height: 480px) {
 
   .masthead {
     background-size: cover !important;
   }
 
   .ui.text.container.title {
-      padding: 1rem 0rem;
+      padding: 3em 0em;
   }
 
   .ui.text.container h1 {
-    font-size: 3em;
+    font-size: 4em;
   }
   .ui.text.container h2 {
     font-size: 1em;
   }
 
+
 }
 
-@media only screen and (min-height: 650px) {
+@media only screen and (min-height: 800px) {
 
   .masthead {
     background-size: cover !important;
   }
 
   .ui.text.container.title {
-      padding: 10rem 0rem;
+      padding: 7em 0em;
   }
 
   .ui.text.container h1 {
-    font-size: 7em;
+    font-size: 6em;
   }
   .ui.text.container h2 {
     font-size: 2em;
@@ -101,7 +118,7 @@
 
 
   .ui.text.container.title {
-      padding: 30rem 0rem;
+      padding: 30em 0em;
   }
 
   .ui.text.container h1 {
