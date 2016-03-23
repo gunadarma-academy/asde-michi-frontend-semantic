@@ -5,16 +5,20 @@
   flex-direction: column;
 }
 
+.masthead a {
+  font-weight: bold !important;
+}
+
 .ui.menu {
   border: none !important;
 }
 
 .masthead {
-  height: 700px;
+  height: 100%;
   width: 100%;
   display: block;
   background-size: cover !important;
-  background: url('https://images.unsplash.com/photo-1414115880398-afebc3d95efc?crop=entropy&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375') center !important;
+  background: url('https://static.pexels.com/photos/1714/city-people-woman-street.jpg') center fixed !important;
 }
 
 .ui.text.container.title {
@@ -40,6 +44,11 @@
 
 @media only screen and (max-width: 700px) {
 
+  .masthead {
+    background-size: cover !important;
+  }
+
+
   .ui.text.container h1 {
     font-size: 4em;
   }
@@ -49,10 +58,58 @@
 
 }
 
-@media only screen and (min-height: 600px) {
+@media only screen and (max-height: 480px) {
+
+  .masthead {
+    background-size: cover !important;
+  }
 
   .ui.text.container.title {
-      padding: 7rem 0rem;
+      padding: 1rem 0rem;
   }
+
+  .ui.text.container h1 {
+    font-size: 3em;
+  }
+  .ui.text.container h2 {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (min-height: 650px) {
+
+  .masthead {
+    background-size: cover !important;
+  }
+
+  .ui.text.container.title {
+      padding: 10rem 0rem;
+  }
+
+  .ui.text.container h1 {
+    font-size: 7em;
+  }
+  .ui.text.container h2 {
+    font-size: 2em;
+  }
+
+
+}
+
+@media only screen and (min-height: 1500px) {
+
+
+  .ui.text.container.title {
+      padding: 30rem 0rem;
+  }
+
+  .ui.text.container h1 {
+    font-size: 17em;
+  }
+  .ui.text.container h2 {
+    font-size: 3em;
+  }
+
 
 }
