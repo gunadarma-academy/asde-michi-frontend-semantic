@@ -6,53 +6,107 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Arlin | Komunitas Penunjuk Arah Jalan</title>
-  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
 </head>
 
-<body class="landing blurring">
-  <div class="ui inverted vertical masthead center aligned segment">
-    <div class="ui container">
-      <div class="ui large secondary inverted pointing right menu">
-        <div class="right item">
-          <a class="item">About</a>
-          <a class="item">FAQ</a>
+<body>
+
+  <!-- Sidebar Menu -->
+  <div class="ui vertical inverted sidebar menu">
+    <a class="active item">Home</a>
+    <a class="item">How it Works</a>
+    <a class="item">Our Team</a>
+    <a class="item">FAQ</a>
+    <a class="item">Login</a>
+  </div>
+
+  <!-- Page Contents -->
+  <div class="pusher">
+
+    <div class="full height image">
+
+      <div class="ui inverted vertical masthead center aligned segment with full height image">
+
+        <div class="ui main container">
+          <div class="ui large secondary menu">
+            <a class="active item">Home</a>
+            <a class="item">How it Works</a>
+            <a class="item">Our Team</a>
+            <a class="item">FAQ</a>
+            <div class="right item">
+              <a class="ui inverted button">Log in</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ui text container">
+          <h1 class="ui inverted header">Arlin</h1>
+          <h2>Ke sana ke mari, tanya di sini.</h2>
+          <div class="ui hidden divider"></div>
+          <div class="ui huge primary button">Tanya Sekarang <i class="right arrow icon"></i></div>
+        </div>
+
+      </div><!-- masthead -->
+
+    </div><!-- image -->
+
+    <div class="ui vertical stripe segment">
+      <div class="ui middle aligned stackable grid container">
+        <div class="row">
+          <div class="eight wide column">
+            <h3 class="ui header">We Help People</h3>
+            <p>We can give your company superpowers to do things that they never thought possible. Let us delight yours and empower your needs...through pure discussion.</p>
+          </div>
+          <div class="six wide right floated column">
+            <img src="white-image.png" class="ui large bordered rounded image">
+          </div>
+        </div>
+        <div class="row">
+          <div class="center aligned column">
+            <a class="ui huge button">Check Them Out</a>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="ui text container title">
-      <h1 class="ui inverted header">
-          Arlin
-        </h1>
-      <h2>Ke sana ke mari, tanya di sini.</h2>
+    <div class="ui inverted vertical footer segment">
       <div class="ui container">
-        <div class="ui big primary button">Tanya Sekarang <i class="right arrow icon"></i></div>
-      </div>
-    </div>
-
-
-    <div class="ui fluid container foot">
-      <div class="ui text inverted">
-        <p>Copyright &copy; Michi 2016.</p>
-      </div>
-    </div>
-
-    <div class="ui modal centered grid" id="login">
-      <div class="ui raised segment">
-        <form class="ui form">
-          <div class="field">
-            <label>Username</label>
-            <input type="text" name="first-name" placeholder="Username">
+        <div class="ui stackable inverted divided equal height stackable grid">
+          <div class="three wide column">
+            <h4 class="ui inverted header">About</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Sitemap</a>
+              <a href="#" class="item">Contact Us</a>
+            </div>
           </div>
-          <button class="ui button" type="submit">Submit</button>
-        </form>
+          <div class="seven wide column">
+            <h4 class="ui inverted header">Made with Passion</h4>
+            <div class="ui inverted link list"><a href="http://github.com/gunadarma-academy/asde-michi" class="item">© Michi 2016</a></div>
+          </div>
+        </div>
       </div>
-
     </div>
-    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="semantic/dist/semantic.min.js"></script>
-    <script src="main.js"></script>
+
+  </div>
+
+  <div id="login" class="ui modal centered grid">
+    <div class="ui raised segment">
+      <form class="ui form">
+        <div class="field">
+          <label>Username</label>
+          <input type="text" name="first-name" placeholder="Username">
+        </div>
+        <button class="ui button" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
+  <script src="main.js"></script>
+
+  </div>
+
 </body>
 
 </html>
