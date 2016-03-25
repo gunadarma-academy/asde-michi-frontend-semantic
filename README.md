@@ -38,6 +38,7 @@ Getting Started
 + Fork the repository
 + Create your feature branch (`git checkout -b feature-name`)
 + Build the defaults assets first (`gulp build`)
+  + When needed, clean up the `dist` (`gulp clean`) before building
 + Make your changes
 + Watch the changed assets (`gulp watch`)
 + Use `live-server` (`npm install -g live-server`) to live reload the page and assets.
