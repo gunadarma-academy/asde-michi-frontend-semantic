@@ -2,6 +2,10 @@
          Site Overrides
 *******************************/
 
+.arlin {
+  width: 400px;
+  height: 200px;
+}
 a.sidebar-toggle.item {
   cursor: pointer;
 }
@@ -18,6 +22,9 @@ a.sidebar-toggle.item {
 .ui.information.container {
   margin-top: 10%;
   width: 50%;
+}
+.ui.text.information.container {
+  text-align: center;
 }
 .ui.information.container h1, .ui.information.container p {
   text-align: center;
