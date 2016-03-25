@@ -10,7 +10,7 @@ a.sidebar-toggle.item {
   cursor: pointer;
 }
 .full.height.image {
-  background-image: url('https://static.pexels.com/photos/1714/city-people-woman-street.jpg');
+  background-image: url('/assets/city-people-woman-street.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
