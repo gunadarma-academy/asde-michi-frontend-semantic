@@ -2,62 +2,42 @@
          Site Overrides
 *******************************/
 
-.hidden.menu {
-  display: none;
+a.sidebar-toggle.item {
+  cursor: pointer;
 }
-.masthead {
-  min-height: 700px;
-  padding: 1em 0;
-  &.with.full.height {
-    &.image {
-      background-image: url('https://static.pexels.com/photos/1714/city-people-woman-street.jpg');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      width: 100%;
-    }
-  }
+.full.height.image {
+  background-image: url('https://static.pexels.com/photos/1714/city-people-woman-street.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
 }
-.masthead .logo.item img {
-  margin-right: 1em;
+.ui.main.container {
+  min-height: 100vh;
 }
-.masthead .ui.menu .ui.button {
-  margin-left: 0.5em;
+.ui.information.container {
+  margin-top: 10%;
+  width: 50%;
 }
-.masthead h1.ui.header {
-  margin-top: 3em;
-  margin-bottom: 0;
-  font-size: 4em;
-  font-weight: normal;
+.ui.information.container h1, .ui.information.container p {
+  text-align: center;
 }
-.masthead h2 {
-  font-size: 1.7em;
-  font-weight: normal;
+.menu.bar {
+  padding: 2em 0;
 }
-.ui.hidden.divider {
-  border-color: transparent!important;
+.full.height .ui.vertical.footer.segment {
+  bottom: 0;
+  position: relative;
 }
-.ui.inverted.vertical.footer.segment {
-  padding: 4em 0;
+.ui.information.container h1 {
+  color: white;
+  font-size: 5em;
+  font-style: bold;
 }
-
-@media only screen and (max-width: 700px) {
-  .ui.fixed.menu {
-    display: none !important;
-  }
-  .secondary.pointing.menu .item,
-  .secondary.pointing.menu .menu {
-    display: none;
-  }
-  .masthead.segment {
-    min-height: 350px;
-  }
-  .masthead h1.ui.header {
-    font-size: 2em;
-    margin-top: 1.5em;
-  }
-  .masthead h2 {
-    margin-top: 0.5em;
-    font-size: 1.5em;
-  }
+.ui.information.container p {
+  color: #ccc;
+  font-size: 1.5em;
+}
+.ui.embed {
+  padding-bottom: 45%;
 }

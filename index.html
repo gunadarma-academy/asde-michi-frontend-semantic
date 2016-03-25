@@ -6,75 +6,56 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Arlin | Komunitas Penunjuk Arah Jalan</title>
-  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.css">
 </head>
 
 <body>
 
   <!-- Page Contents -->
-  <div class="pusher">
+  <div class="ui sidebar inverted vertical menu">
+    <a class="item active" href="index.html">
+      <i class="home icon"></i>Home
+    </a>
+    <a class="item" href="about.html">
+      <i class="users icon"></i>About
+    </a>
+    <a class="item" href="contact.html">
+      <i class="phone icon"></i>Contact
+    </a>
+  </div>
 
+  <div class="pusher">
     <div class="full height image">
 
-      <div class="ui inverted vertical masthead center aligned segment with full height image">
+      <div class="ui main center container">
 
-        <div class="ui main container">
-          <div class="ui large secondary menu">
-            <a class="active item">Home</a>
-            <div class="right item">
-              <a class="ui inverted button">Log in</a>
-            </div>
+        <div class="menu bar">
+          <div class="ui large inverted secondary menu">
+            <a class="sidebar-toggle item">
+              <i class="big sidebar icon"></i> Menu
+            </a>
           </div>
         </div>
 
-        <div class="ui text container">
-          <h1 class="ui inverted header">Arlin</h1>
-          <h2>Ke sana ke mari, tanya di sini.</h2>
-          <div class="ui hidden divider"></div>
-          <div class="ui huge primary button">Tanya Sekarang <i class="right arrow icon"></i></div>
+        <div class="ui text information container">
+          <h1 class="ui inverted center aligned header">Arlin</h1>
+          <h2 class="ui inverted center aligned header">Ke sana ke mari, tanya di sini</h2>
+          <button class="ui huge primary button">
+            Tanya Sekarang <i class="right arrow icon"></i>
+          </button>
         </div>
 
-      </div><!-- masthead -->
+      </div>
 
-    </div><!-- image -->
-
-    <div class="ui vertical stripe segment">
-      <div class="ui middle aligned stackable grid container">
-        <div class="row">
-          <div class="eight wide column">
-            <h3 class="ui header">We Help People</h3>
-            <p>We can give your company superpowers to do things that they never thought possible. Let us delight yours and empower your needs...through pure discussion.</p>
-          </div>
-          <div class="six wide right floated column">
-            <img src="white-image.png" class="ui large bordered rounded image">
-          </div>
-        </div>
-        <div class="row">
-          <div class="center aligned column">
-            <a class="ui huge button">Check Them Out</a>
+      <div class="ui vertical footer segment">
+        <div class="ui center aligned container">
+          <div class="ui horizontal small inverted divided link list">
+            <a class="item">&copy; 2016 Michi</a>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="ui inverted vertical footer segment">
-      <div class="ui container">
-        <div class="ui stackable inverted divided equal height stackable grid">
-          <div class="three wide column">
-            <h4 class="ui inverted header">About</h4>
-            <div class="ui inverted link list">
-              <a href="#" class="item">Sitemap</a>
-              <a href="#" class="item">Contact Us</a>
-            </div>
-          </div>
-          <div class="seven wide column">
-            <h4 class="ui inverted header">Made with Passion</h4>
-            <div class="ui inverted link list"><a href="http://github.com/gunadarma-academy/asde-michi" class="item">© Michi 2016</a></div>
-          </div>
-        </div>
-      </div>
     </div>
-
   </div>
 
   <div id="login" class="ui modal centered grid">
