@@ -10,9 +10,10 @@
 </head>
 
 <body>
+
   <div class="ui container">
     <div class="ui large secondary menu">
-      <a href="#">
+      <a href="/">
         <img src="assets/arlin_logo_color_small.svg" alt="Arlin logo" class="item">
       </a>
       <div class="right item">
@@ -21,33 +22,96 @@
     </div>
   </div>
 
-  <div class="ui vertical center aligned segment bg1">
+  <div class="ui sizer vertical center aligned segment bg1">
     <div id="maintitle">
-      <h1 class="ui inverted header">Persiapkan perjalanan kamu di Jakarta dengan bertanya pada Teman Arlin. </h1>
-      <p class="ui inverted text" style="color: white">Atau bantu jawab pertanyaan mereka di bawah ini. </p>
+      <h1 class="ui inverted huge header">Persiapkan perjalanan kamu di Jakarta <br> dengan bertanya pada Teman Arlin.</h1>
+      <p class="ui inverted medium header" style="color: white">Atau bantu jawab pertanyaan mereka di bawah ini.</p>
     </div>
-    <button class="ui huge primary button">
+    <a class="ui huge primary button" href="ask.html">
       Tanya Sekarang
-    </button>
+    </a>
   </div>
 
-  <div class="ui vertical segment">
-    <li class="ui centered stackable two column row grid" id="questionlist">
-      <div class="row">
-        <div class="ui card column raised segment">
-          <div class="ui three column grid">
-            <div class="four wide middle aligned center aligned column">
-              <h2 class="ui header">0</h2>
-              <p>Jawaban</p>
-            </div>
-            <div class="twelve wide column">
-              <h3 class="ui header">Rute Margo City ke Pasar Minggu kira-kira naik apa ya yang paling murah?</h3>
-              <p>User asks 2 min ago.</p>
+  <div class="ui internally celled centered grid">
+
+    <div class="sixteen wide mobile thirteen wide tablet eleven wide computer column">
+
+      <div class="ui link cards" id="questionlist">
+
+        <a class="ui card" href="answer.html">
+          <div class="content">
+            <div class="header">Ke Pasar Minggu paling murah</div>
+            <div class="meta">1 day ago</div>
+            <div class="description">
+              Rute dari Margo City ke Pasar Minggu kira-kira naik apa ya yang paling murah?
             </div>
           </div>
-        </div>
+          <div class="extra content">
+            <span class="left floated">
+              <i class="check icon"></i>11 votes
+            </span>
+            <span class="right floated">
+              <i class="user icon"></i>1 answer
+            </span>
+          </div>
+        </a>
+
+        <a class="ui card" href="answer.html">
+          <div class="content">
+            <div class="header">Ke Lenteng Agung paling murah</div>
+            <div class="meta">2 days ago</div>
+            <div class="description">
+              Rute dari UI ke Lenteng Agung kira-kira naik apa ya yang paling murah?
+            </div>
+          </div>
+          <div class="extra content">
+            <span class="left floated">
+              <i class="check icon"></i>12 votes
+            </span>
+            <span class="right floated">
+              <i class="user icon"></i>2 answers
+            </span>
+          </div>
+        </a>
+
+        <a class="ui card" href="answer.html">
+          <div class="content">
+            <div class="header">Ke Salemba paling murah</div>
+            <div class="meta">3 days ago</div>
+            <div class="description">
+              Rute dari Gunadarma Depok ke Gunadarma Salemba kira-kira naik apa ya yang paling murah?
+            </div>
+          </div>
+          <div class="extra content">
+            <span class="left floated">
+              <i class="check icon"></i>14 votes
+            </span>
+            <span class="right floated">
+              <i class="user icon"></i>3 answers
+            </span>
+          </div>
+        </a>
+
+        <a class="ui card" href="answer.html">
+          <div class="content">
+            <div class="header">Ke Salemba paling murah</div>
+            <div class="meta">3 days ago</div>
+            <div class="description">
+              Rute dari Gunadarma Depok ke Gunadarma Salemba kira-kira naik apa ya yang paling murah?
+            </div>
+          </div>
+          <div class="extra content">
+            <span class="left floated">
+              <i class="check icon"></i>14 votes
+            </span>
+            <span class="right floated">
+              <i class="user icon"></i>3 answers
+            </span>
+          </div>
+        </a>
+
       </div>
-    </li>
+    </div>
   </div>
 
   <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
