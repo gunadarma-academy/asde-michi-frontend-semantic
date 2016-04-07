@@ -62,12 +62,12 @@
 
   <div id="login" class="ui modal centered grid">
     <div class="ui raised segment">
-      <form class="ui form">
+      <form class="ui form" action="home.html">
         <div class="field">
           <label>Username</label>
-          <input type="text" name="first-name" placeholder="Username">
+          <input type="text" name="username" placeholder="Username">
         </div>
-        <button class="ui button" type="submit">Submit</button>
+        <input type="submit" class="ui button" onclick="location.href='/home.html';" value="Log in" />
       </form>
     </div>
   </div>
