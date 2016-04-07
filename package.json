@@ -4,6 +4,10 @@
   "description": "Web and mockup version of Arlin by Michi Team",
   "main": "index.js",
   "scripts": {
+    "start": "live-server .",
+    "clean": "cd semantic; gulp clean",
+    "build": "cd semantic; gulp clean; gulp build",
+    "watch": "cd semantic; gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

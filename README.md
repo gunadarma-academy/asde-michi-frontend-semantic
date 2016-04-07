@@ -28,21 +28,19 @@ Getting Started
 
 ### Running
 
-+ Install gulp globally (`npm install -g gulp`)
-+ Go to `semantic` directory (`cd semantic`)
-+ Build the defaults assets first (`gulp build`)
-+ Open `index.html` or any html files via browser.
++ Install gulp and live-server globally (`npm install -g gulp live-server`)
++ Build the defaults assets first (`npm run-script build`)
++ Open `index.html` or any available HTML files via browser through shown host:port.
 
 ### Development
 
 + Fork the repository
 + Create your feature branch (`git checkout -b feature-name`)
-+ Build the defaults assets first (`gulp build`)
-  + When needed, clean up the `dist` (`gulp clean`) before building
++ When needed, clean up the `dist` (`npm run-script clean`)
 + Make your changes
-+ Watch the changed assets (`gulp watch`)
-+ Use `live-server` (`npm install -g live-server`) to live reload the page and assets.
-  + Access `localhost:8080` or shown host with port in the prompt to view
++ Watch the changed assets (`npm run-script watch`)
++ Use `live-server` to live reload the page and assets.
++ Access `localhost:8080` or shown host:port in the prompt to view
 + Commit your changes (`git commit -a`)
 + Push to the branch (`git push origin feature-name`)
 + Create new Pull Request
