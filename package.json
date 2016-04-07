@@ -1,7 +1,7 @@
 {
-  "name": "asde-michi-web",
-  "version": "0.1.0",
-  "description": "Web version of Arlin by Michi",
+  "name": "arlin-web",
+  "version": "0.2.0",
+  "description": "Web and mockup version of Arlin by Michi Team",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,19 +11,20 @@
     "url": "git+https://github.com/gunadarma-academy/asde-michi-web.git"
   },
   "keywords": [
+    "asde",
     "arlin",
-    "michi",
-    "web"
+    "web",
+    "michi"
   ],
   "author": [
-    "M Haidar Hanif <mhaidarhanif@gmail.com>",
+    "M Haidar Hanif <tech@mhaidarhanif.com>",
     "Ekky Pramana <ekkypramana@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gunadarma-academy/asde-michi-web/issues"
   },
-  "homepage": "https://github.com/gunadarma-academy/asde-michi-web#readme",
+  "homepage": "http://arlin.link",
   "dependencies": {
     "better-console": "^0.2.4",
     "del": "^2.2.0",
